@@ -176,14 +176,14 @@ Experimental results demonstrate that our method achieves state-of-the-art perfo
             <td align="center" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1280"
                     height="160" src="assets/framework.jpg"></td>
         <center>
-            <h5 class="title is-6">The architecture of WalkVLM-LR. The top-right of the image illustrates how WalkVLM-LR operates, while the left side depicts its overall design. The bottom-right shows the structure of the EAD module.</h5>
+            <h5 class="title is-6"><strong>Figure 1:</strong>The architecture of WalkVLM-LR. The top-right of the image illustrates how WalkVLM-LR operates, while the left side depicts its overall design. The bottom-right shows the structure of the EAD module.</h5>
         </center>
 
         <hr />
             <td align="center" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1280"
                     height="160" src="assets/GRPO.jpg"></td>
         <center>
-            <h5 class="title is-6">Four Rewards in GRPO Training. GRPO utilizes an intra-group relative advantage evaluation mechanism, combined with four customized reward functions, to assist the VLM in learning how to generate outputs that align with human preferences.</h5>
+            <h5 class="title is-6"><strong>Figure 2:</strong>Four Rewards in GRPO Training. GRPO utilizes an intra-group relative advantage evaluation mechanism, combined with four customized reward functions, to assist the VLM in learning how to generate outputs that align with human preferences.</h5>
         </center>
     </section>
     <section class="section" id="results" style="margin-top: 10px;">
@@ -194,28 +194,28 @@ Experimental results demonstrate that our method achieves state-of-the-art perfo
     <a href="assets/number.png" target="_blank">
       <img src="assets/number.png" style="max-height: 500px; width: auto; cursor: zoom-in;" alt="Results Table">
     </a>
-    <h5 class="title is-6">Quantitative comparison of different methods. WalkVLM-LR achieves the best performance across ROUGE, Keyword Density, and GPT Score metrics. These results highlight the effectiveness of WalkVLM-LR in reducing redundancy while maintaining high-quality, concise outputs, making it a superior choice for walking assistant applications.</h5>
+    <h5 class="title is-6"><strong>Table 1:</strong>Quantitative comparison of different methods. WalkVLM-LR achieves the best performance across ROUGE, Keyword Density, and GPT Score metrics. These results highlight the effectiveness of WalkVLM-LR in reducing redundancy while maintaining high-quality, concise outputs, making it a superior choice for walking assistant applications.</h5>
   </div>
 
   <div style="text-align: center; margin-bottom: 2rem;">
     <a href="assets/zhuzhuang.jpg" target="_blank">
       <img src="assets/zhuzhuang.jpg" style="max-height: 550px; width: auto; cursor: zoom-in;" alt="WeChat Case 1">
     </a>
-    <h5 class="title is-6">The comparison between WalkVLM-LR and mainstream VLMs in terms of output length and keyword density. The outputs of WalkVLM-LR are the shortest and exhibit the highest keyword density, containing the least amount of redundant information.</h5>
+    <h5 class="title is-6"><strong>Figure 3:</strong>The comparison between WalkVLM-LR and mainstream VLMs in terms of output length and keyword density. The outputs of WalkVLM-LR are the shortest and exhibit the highest keyword density, containing the least amount of redundant information.</h5>
   </div>
 
   <div style="text-align: center; margin-bottom: 2rem;">
     <a href="assets/visual.jpg" target="_blank">
       <img src="assets/visual.jpg" style="max-height: 550px; width: auto; cursor: zoom-in;" alt="MLDR Qualitative Results">
     </a>
-    <h5 class="title is-6">Output comparison of different VLM models in walking assistant task. Compared to other models, WalkVLM-LR generates concise and informative responses, offering better guidance for visually impaired users.</h5>
+    <h5 class="title is-6"><strong>Figure 4:</strong>Output comparison of different VLM models in walking assistant task. Compared to other models, WalkVLM-LR generates concise and informative responses, offering better guidance for visually impaired users.</h5>
   </div>
 
   <div style="text-align: center; margin-bottom: 2rem;">
     <a href="assets/vis2.jpg" target="_blank">
       <img src="assets/vis2.jpg" style="max-height: 550px; width: auto; cursor: zoom-in;" alt="MLDR Qualitative Results">
     </a>
-    <h5 class="title is-6">Output comparison of different VLM models in walking assistant task. Compared to other models, WalkVLM-LR generates concise and informative responses, offering better guidance for visually impaired users.</h5>
+    <h5 class="title is-6"><strong>Figure 5:</strong>Output comparison of different VLM models in walking assistant task. Compared to other models, WalkVLM-LR generates concise and informative responses, offering better guidance for visually impaired users.</h5>
   </div>
     
     </section>
@@ -229,8 +229,7 @@ Experimental results demonstrate that our method achieves state-of-the-art perfo
             <td align="center" style="padding-left: 0px; padding-bottom: 0px;"><img class="center" width="1280"
                     height="160" src="assets/bad.jpg"></td>
         <center>
-            <h5 class="title is-6">Examples of WalkVLM Underperformance. These scenarios include streets with heavy pedestrian traffic, roads with low brightness at night, and complex environments with cluttered targets.</h5>
-            <h2>Case Analysis:</h2>
+            <h5 class="title is-6"><strong>Figure 6:</strong>Examples of WalkVLM Underperformance. These scenarios include streets with heavy pedestrian traffic, roads with low brightness at night, and complex environments with cluttered targets.</h5>
 <style>
         /* 设置所有标题和文本左对齐 */
         body, strong, ul, p, ol {
@@ -238,6 +237,7 @@ Experimental results demonstrate that our method achieves state-of-the-art perfo
             margin-left: 0px; /* 可选：增加一点左侧间距 */
         }
     </style>
+<p><strong>Analysis of bad cases in WalkVLM-LR:</strong></p>
 <ol>
   <li>
     <strong>Incomplete Target Coverage and Directional Misjudgment:</strong>
@@ -264,9 +264,7 @@ Experimental results demonstrate that our method achieves state-of-the-art perfo
   </li>
 </ol>
 
-<h2>Further Work:</h2>
-
-<p>To address these issues, future work should focus on:</p>
+<p><strong>To address these issues, future work should focus on:</strong></p>
 
 <ol>
   <li><strong>Improved Obstacle Detection:</strong> Enhancing the model's ability to detect safety-critical, nearby obstacles, especially in low-visibility conditions, ensuring that the most relevant hazards are prioritized.</li>
