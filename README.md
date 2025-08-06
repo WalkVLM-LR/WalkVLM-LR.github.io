@@ -1,6 +1,6 @@
 # WalkVLM-LR
 
-A walking assistance VLM with reduced redundancy for blind and low vision individuals.
+A walking assistance VLM with reduced redundancy for blind and low vision individuals.(under updating)
 
 ## Overview
 
